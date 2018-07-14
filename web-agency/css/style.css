@@ -544,16 +544,8 @@ color:#000
 }
 
 .adaptive {
-background:url(../img/adaptate.png) no-repeat;
-background-size:80%;
-background-position-x:785px;
-background-position-y:center;
-height:770px
-}
-
-.adaptive .adaptate {
-background:url(../img/adaptat.png) no-repeat;
-background-position-y:205px
+	background:url(../img/adaptat.png) no-repeat 100px 205px;
+	height:770px;
 }
 
 .adaptive .adaptate h2 {
@@ -561,7 +553,7 @@ font-family:parangon530c;
 font-size:36px;
 text-transform:uppercase;
 padding-top:215px;
-margin:0
+margin:0;
 }
 
 .adaptive .adaptate p {
@@ -569,7 +561,12 @@ font-family:Arial;
 font-size:26px;
 line-height:45px;
 padding-top:30px;
-margin:0
+margin:0;
+}
+
+.adaptive .tel {
+	background:url(../img/adaptate.png) no-repeat 20px center;
+	background-size: 170%;
 }
 
 .trade-in {
@@ -607,17 +604,17 @@ vertical-align:middle;
 padding-left:20px;
 font-family:parangon530c;
 text-transform:uppercase;
-font-size:25px
+font-size:25px;
 }
 
 .trade-in .trade p {
 margin-top:10px;
 font-family:Arial;
-font-size:18px
+font-size:18px;
 }
 
 .trade-in .but {
-margin:auto
+margin:auto;
 }
 
 .trade-in .but button {
@@ -629,44 +626,60 @@ text-transform:uppercase;
 font-size:24px;
 padding:10px 25px 5px;
 color:#fff;
-outline:none
+outline:none;
 }
 
 .trade-in .but button:hover {
 }
 
 .trade-in .but button:active {
-background:#0cf
+ background: #0cf;
 }
 
 .care {
+	background: url(../img/be-careful.png) no-repeat 115px 210px;
+}
+
+.care .care-text {
+	margin: auto;
 }
 
 .care .care-text h2 {
+	font-family: 'parangon530c';
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 55px;
 }
 
 .care .care-text p {
+	font-family: 'Arial';
+	font-size: 24px;
 }
 
 .care .care-bg {
+	min-height: 765px;
+	background: url(../img/care-bg.jpg) no-repeat center;
 }
 
 .contacts {
+	min-height: 565px;
+	background: url(../img/contacts-bg.jpg) no-repeat center;
+	color: #fff;
+	display: flex;
 }
 
-.contacts .contacts-bg {
+.contacts .contacts-info {
+	margin: auto;
 }
 
-.contacts .contacts-bg .contacts-info {
+.contacts .contacts-info h2 {
+	
 }
 
-.contacts .contacts-bg .contacts-info h2 {
+.contacts .contacts-info p {
 }
 
-.contacts .contacts-bg .contacts-info p {
-}
-
-.contacts .contacts-bg .contacts-form {
+.contacts .contacts-form {
 }
 
 .footer {
