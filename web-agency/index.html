@@ -323,7 +323,15 @@
 							<p>Готовы начать работу? Отправьте сообщение и свои контакты, мы ответим вам в течении 2-ух дней. Схема работы с каждым клиентом будет разработана индивидуально в зависимости от поставленных задач.</p>
 						</div>
 						<div class="col-md-6 contacts-form">
-							<button>Отправить</button>
+							<form action="">
+								<input type="text" class="first_name" placeholder="Ваше имя" pattern="[A-Za-zА-Яа-яЁё]" required>
+								<input type="text" class="last_name" placeholder="Ваша фамилия" pattern="[A-Za-zА-Яа-яЁё]" required>
+								<input type="email" class="email" placeholder="E-mail" required>
+								<textarea cols="30" rows="6" class="textarea" placeholder="Введите ваше сообщение" required></textarea>
+								<label>Наши специалисты свяжутся с вами как можно скорее</label>
+								<input type="submit" class="submit" placeholder="Отправить">
+								<!-- <button>Отправить</button> -->
+							</form>
 						</div>
 					</div>
 				</div>
