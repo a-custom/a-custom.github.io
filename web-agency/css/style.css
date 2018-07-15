@@ -64,6 +64,38 @@ src:url(../fonts/UniSansHeavyCaps.eot);
 src:url(../fonts/UniSansHeavyCaps.eot) format(embedded-opentype), url(../fonts/UniSansHeavyCaps.woff2) format(woff2), url(../fonts/UniSansHeavyCaps.woff) format(woff), url(../fonts/UniSansHeavyCaps.ttf) format(truetype), url(../fonts/UniSansHeavyCaps.svg#UniSansHeavyCaps) format(svg)
 }
 
+input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+input:-moz-placeholder {
+	color: #fff;
+}
+
+input::-moz-placeholder {
+	color: #fff;
+}
+
+input:-ms-input-placeholder {
+	color: #fff;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #fff;
+}
+
+textarea:-moz-placeholder {
+	color: #fff;
+}
+
+textarea::-moz-placeholder {
+	color: #fff;
+}
+
+textarea:-ms-input-placeholder {
+	color: #fff;
+}
+
 body {
 background:#fff;
 max-width:1440px;
@@ -685,17 +717,21 @@ outline:none;
 }
 
 .contacts .contacts-form {
+	color: #fff;
 }
 
 .contacts .contacts-form form {
 	margin-top: 140px;
+	color: #fff;
 }
 
 .contacts .contacts-form input, textarea {
 	background: transparent;
-	color: #fff;
+	color: #fff !important;
 	border: 2px solid #fff;
 	outline: none;
+	font-size: 18px;
+	font-family: 'Arial';
 }
 
 .contacts .contacts-form .first_name {
