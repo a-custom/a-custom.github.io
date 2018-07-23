@@ -8,41 +8,56 @@
 <body>
 
 	<div id="container">
-		  <div id="hook"></div>
-		  <h1>Play Music</h1>
-		  <input type="file" id="files" name="files[]" multiple />
-		</div>
-		<script crossorigin src="https://unpkg.com/react@15/dist/react.js"></script>
-		<script crossorigin src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
-		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-		<script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
-		<script src="https://soulwire.github.io/sketch.js/js/sketch.min.js"></script>
-		<script src="app/app.js"></script>
-		<script type="text/babel">
-			function OurFirstComponent() {
-			    return (
-			      <h1>I am the child!</h1>
-			    );
-			  }
-			  class Container extends React.Component {
-			    render() {
-			      return (
-			        <div>
-			          <h1>I am the parent!</h1>
-			          <OurFirstComponent />
-			        </div>
-			      );
-			    }
-			  }
-			  const placeWeWantToPutComponent = document.getElementById('hook');
-			  ReactDOM.render(<Container />, placeWeWantToPutComponent);
-		  // Тут будет код на React.
-		</script>
-	
+		<div id="hook"></div>
+		<h1>Play Music</h1>
+		<input type="file" id="files" name="files[]" multiple />
+	</div>
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<script src="https://soulwire.github.io/sketch.js/js/sketch.min.js"></script>
+	<script src="app/app.js"></script>
+	<script type="text/babel">
+	function PlayButton(props) {
+	  const className = props.isMusicPlaying ? 'play active' : 'play';
+	  return <a onClick={props.onClick} href="#" title="Play video" className={className} />;
+	}
+	class Container extends React.Component {
+	  constructor(props) {
+	    super(props);
+	    this.state = { isMusicPlaying: false };
+	  }
+	  handleClick() {
+	    if (this.state.isMusicPlaying) {
+	      this.audio.pause();
+	    } else {
+	      this.audio.play();
+	    }
+	    this.setState(prevState => {
+	      return { 
+	        isMusicPlaying: !prevState.isMusicPlaying   
+	      };
+	    });
+	  };
+	  render() {
+	    return (
+	      <div>
+	        <PlayButton 
+	          onClick={this.handleClick.bind(this)} 
+	          isMusicPlaying={this.state.isMusicPlaying} 
+	        />
+	        <audio id="audio" ref={(audioTag) => { this.audio = audioTag }} />
+	      </div>
+	    );
+	  }
+	}
+	  const placeWeWantToPutComponent = document.getElementById('hook');
+	  ReactDOM.render(<Container />, placeWeWantToPutComponent);
+	</script>
 
 
 
-	
+
+
 </body>
 </html>
