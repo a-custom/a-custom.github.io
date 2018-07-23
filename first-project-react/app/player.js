@@ -1,6 +1,6 @@
 function PlayButton(props) {
   const className = props.isMusicPlaying ? 'play active' : 'play';
-  return <a onClick={props.onClick} href="#" title="Play video" className={className} />;
+  return <a onClick={props.onClick} href="#" title="Play music" className={className} />;
 }
 class Container extends React.Component {
   constructor(props) {
