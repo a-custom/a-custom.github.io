@@ -1,0 +1,49 @@
+/*
+* Custom Style
+* Author: Atrur Custom
+* URL: https://a-custom.github.io/
+* Licensed under MIT (https://github.com/a-custom/Bootstrap/blob/master/LICENSE)
+*/
+body {
+	background: url(../img/bg.jpg) no-repeat;
+	background-position: auto;
+	background-size: 105%;
+}
+
+a {
+	
+}
+
+.sorry {
+	background: rgba(255, 255, 255, 0.4);
+	position: absolute;
+	top: 30%;
+	left: 22%;
+	padding: 10px 200px;
+}
+
+h1 {
+	margin: 30px auto;
+	text-align: center;
+	font-size: 50px;
+}
+.p { 
+	margin: 30px auto;
+}
+p {
+	margin: 10px auto;
+	font-size: 25px;
+	text-align: center;
+}
+
+.footer {
+background-color:#f93
+}
+
+.footer p {
+font-family:Exo2Bold;
+font-size:20px;
+margin:0;
+padding:35px
+}
+
