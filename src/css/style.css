@@ -4,46 +4,65 @@
 * URL: https://a-custom.github.io/
 * Licensed under MIT (https://github.com/a-custom/Bootstrap/blob/master/LICENSE)
 */
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
 body {
 	background: url(../img/bg.jpg) no-repeat;
-	background-position: auto;
-	background-size: 105%;
+	background-size: 100%;
+	font-family: 'Berkshire Swash', cursive;
 }
 
-a {
-	
-}
-
-.sorry {
+.cont {
 	background: rgba(255, 255, 255, 0.4);
-	position: absolute;
-	top: 30%;
-	left: 22%;
-	padding: 10px 200px;
+	/*width: 550px;
+    height: 270px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	padding: 50px 100px;
 }
 
 h1 {
-	margin: 30px auto;
+	margin: 1px auto;
 	text-align: center;
 	font-size: 50px;
 }
 .p { 
 	margin: 30px auto;
 }
+
 p {
 	margin: 10px auto;
 	font-size: 25px;
 	text-align: center;
 }
 
+.a {
+	text-align: center;
+	/*margin: 20px 0;*/
+}
+
+a {
+	text-decoration: none;
+	padding: 0 10px;
+	color: #000;
+}
+
+a:hover {
+	color: #fff;
+}
+
 .footer {
-background-color:#f93
+background-color: #f93
 }
 
 .footer p {
-font-family:Exo2Bold;
-font-size:20px;
-margin:0;
-padding:35px
+font-family: Exo2Bold;
+font-size: 20px;
+margin: 0;
+padding: 35px
 }
 
