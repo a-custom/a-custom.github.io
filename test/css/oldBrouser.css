@@ -1,0 +1,28 @@
+﻿/*
+* Custom Style
+* Author: Atrur Custom
+* URL: https://a-custom.github.io.ua/
+* Licensed under MIT (https://github.com/Artur-Verenych/Bootstrap/blob/master/LICENSE)
+*/
+
+
+.old-browser {
+	text-align:center;
+	width:100%;
+}
+
+
+.old-browser .info {
+	background:#ff0;
+	padding-bottom:5px;
+}
+
+
+.old-browser .info a:hover {
+	color:red;
+}
+
+
+.old-browser .info a:link,.old-browser .info a:active,.old-browser .info a:visited {
+	color:#00f;
+}

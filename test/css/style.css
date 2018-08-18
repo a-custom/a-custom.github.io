@@ -1,64 +1,19 @@
 ﻿/*
-
 * Custom Style
-
 * Author: Atrur Custom
-
 * URL: https://a-custom.github.io.ua/
-
 * Licensed under MIT (https://github.com/Artur-Verenych/Bootstrap/blob/master/LICENSE)
-
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext'); 
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext');
 /*
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Lato', sans-serif;
 */
 
 
-input::-webkit-input-placeholder {
-	color: #fff;
-}
-
-
-input:-moz-placeholder {
-	color: #fff;
-}
-
-
-input::-moz-placeholder {
-	color: #fff;
-}
-
-
-input:-ms-input-placeholder {
-	color: #fff;
-}
-
-
-textarea::-webkit-input-placeholder {
-	color: #fff;
-}
-
-
-textarea:-moz-placeholder {
-	color: #fff;
-}
-
-
-textarea::-moz-placeholder {
-	color: #fff;
-}
-
-
-textarea:-ms-input-placeholder {
-	color: #fff;
-}
-
-
 body {
-	background: #fff;
 	max-width: 1920px;
 }
