@@ -1,0 +1,30 @@
+#Сжимаем компоненты сайта путем включения Gzip
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html
+
+# Определение кодировки
+AddDefaultCharset UTF-8
+
+#Защищаем .htaccess файл
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+# Запрет веб-доступа:
+# Order deny,allow
+# Deny from all
+
+# Определить индексный файл сайта:
+DirectoryIndex index.html
+
+# Работа с ошибками веб-сервера
+ErrorDocument 401 /error/401.html
+ErrorDocument 403 /error/403.html
+ErrorDocument 404 /error/404.html
+ErrorDocument 500 /error/500.html
+
+# Убираем расширение файла из URL
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.html [L]
