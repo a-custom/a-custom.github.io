@@ -569,7 +569,7 @@
 		<div class="container">
 			<div class="row">
 			
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<p><b>Us links</b></p>
 					<p align="left">
 						<a href="http://a-custom.github.io/">Artur Custom</a><br>
@@ -577,19 +577,23 @@
 					</p>
 				</div>
 
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<script type="text/javascript" src="//counter.websiteout.net/js/35/0/17/1"></script>  
 				</div>
 
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<p class="heart">
 						Made in <b>Custom Studio</b>
 					</p>
 					<p class="copyright">
 						&copy;
 						<script src="js/copy.js"></script>
-					</p><br>
-					<a href="https://ukraine.com.ua/?page=162048" title="Хостинг Украина" target="_blank" rel="noindex,nofollow"><img src="images/ukraine_3.gif" title="Хостинг Украина" border="0" alt="Hosting Ukraine"/></a>
+					</p>
+				</div>
+
+				<div class="col-sm-3">
+					<p><b>Us Partners</b></p>
+					<a href="https://ukraine.com.ua/?page=162048" title="Хостинг Украина" target="_blank" rel="noindex,nofollow"><img src="images/ukraine_3.gif" title="Хостинг Украина" border="0" alt="Hosting Ukraine"/></a><br>  
 				</div>
 
 			</div><!-- .row -->
