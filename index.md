@@ -4,6 +4,7 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107394483-4"></script>
 	<script src="js/google-analystic.js"></script>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
@@ -577,16 +578,7 @@
 				</div>
 
 				<div class="col-sm-4">
-					<script type="text/javascript" src="//counter.websiteout.net/js/35/0/17/1"></script>
-
-					<div id="qoo-counter"> <!-- 
-					<a href="http://qoo.by/" title="Бесплатный счетчик посещений на сайт"> --> 
-					<img src="http://qoo.by/counter/standard/009.png" alt="Счетчик посещаемости и статистика сайта"> 
-					<div id="qoo-counter-visits"></div> 
-					<div id="qoo-counter-views"></div> 
-					</a> 
-					</div> 
-					<script type="text/javascript" src="http://qoo.by/counter.js"></script>  
+					<script type="text/javascript" src="//counter.websiteout.net/js/35/0/17/1"></script>  
 				</div>
 
 				<div class="col-sm-4">
