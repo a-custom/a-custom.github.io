@@ -1,0 +1,60 @@
+body{
+    /* position: relative; */
+    width: 90%;
+    height: 90%;
+    background: #E5E5E5;
+}
+
+.Resume{
+    
+}
+
+.rectangle{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    background: #FFFFFF;
+    /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.text-intro{
+
+}
+
+.Progects{
+
+}
+
+.WorkExperiense{
+
+}
+
+.Education{
+
+}
+
+.left-sidebar{
+
+}
+
+.rectangle2{
+
+}
+
+.Photo{
+
+}
+
+.Contacts{
+
+}
+
+.TechSkills{
+
+}
+
+.SoftSkills{
+
+}
